@@ -1,0 +1,445 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Blog.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Blog.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\arrow-end.png",
+      "PackagePath": "staticwebassets\\Images\\arrow-end.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\arrow-middle.png",
+      "PackagePath": "staticwebassets\\Images\\arrow-middle.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\arrow-start.png",
+      "PackagePath": "staticwebassets\\Images\\arrow-start.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\c-1.png",
+      "PackagePath": "staticwebassets\\Images\\c-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\c-2.png",
+      "PackagePath": "staticwebassets\\Images\\c-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\c-3.png",
+      "PackagePath": "staticwebassets\\Images\\c-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\d-1.png",
+      "PackagePath": "staticwebassets\\Images\\d-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\d-2.png",
+      "PackagePath": "staticwebassets\\Images\\d-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\d-3.png",
+      "PackagePath": "staticwebassets\\Images\\d-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\d-4.png",
+      "PackagePath": "staticwebassets\\Images\\d-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\d-5.png",
+      "PackagePath": "staticwebassets\\Images\\d-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\economy.jpg",
+      "PackagePath": "staticwebassets\\Images\\economy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\envelope-white.png",
+      "PackagePath": "staticwebassets\\Images\\envelope-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\fashion.jpg",
+      "PackagePath": "staticwebassets\\Images\\fashion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\fb.png",
+      "PackagePath": "staticwebassets\\Images\\fb.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\health.jpg",
+      "PackagePath": "staticwebassets\\Images\\health.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\Images\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\insta.png",
+      "PackagePath": "staticwebassets\\Images\\insta.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\linkedin.png",
+      "PackagePath": "staticwebassets\\Images\\linkedin.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\location-white.png",
+      "PackagePath": "staticwebassets\\Images\\location-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\location.png",
+      "PackagePath": "staticwebassets\\Images\\location.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\map-img.png",
+      "PackagePath": "staticwebassets\\Images\\map-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\menu.png",
+      "PackagePath": "staticwebassets\\Images\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\next.png",
+      "PackagePath": "staticwebassets\\Images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\prev.png",
+      "PackagePath": "staticwebassets\\Images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\quote.png",
+      "PackagePath": "staticwebassets\\Images\\quote.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\search-icon.png",
+      "PackagePath": "staticwebassets\\Images\\search-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\sports.jpg",
+      "PackagePath": "staticwebassets\\Images\\sports.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\target-bg.jpg",
+      "PackagePath": "staticwebassets\\Images\\target-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\telephone-white.png",
+      "PackagePath": "staticwebassets\\Images\\telephone-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\twitter.png",
+      "PackagePath": "staticwebassets\\Images\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\user.png",
+      "PackagePath": "staticwebassets\\Images\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\w-1.png",
+      "PackagePath": "staticwebassets\\Images\\w-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\w-2.png",
+      "PackagePath": "staticwebassets\\Images\\w-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\w-3.png",
+      "PackagePath": "staticwebassets\\Images\\w-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\w-4.png",
+      "PackagePath": "staticwebassets\\Images\\w-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\who-img.jpg",
+      "PackagePath": "staticwebassets\\Images\\who-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\Images\\youtube.png",
+      "PackagePath": "staticwebassets\\Images\\youtube.png"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shahd\\OneDrive\\Desktop\\Final_Project\\Blog\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Blog.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Blog.props",
+      "PackagePath": "build\\Blog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Blog.props",
+      "PackagePath": "buildMultiTargeting\\Blog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Blog.props",
+      "PackagePath": "buildTransitive\\Blog.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

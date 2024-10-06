@@ -1,0 +1,60 @@
+@model Blog.Models.Author
+
+@{
+    ViewData["Title"] = "Edit Author";
+}
+
+<h2>Edit Author</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="ID" />
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BirthDate"></label>
+        <input asp-for="BirthDate" class="form-control" type="date" />
+        <span asp-validation-for="BirthDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+    <label asp-for="Gender"></label>
+    <select asp-for="Gender" class="form-control">
+        <option value="">Select Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+    </select>
+    <span asp-validation-for="Gender" class="text-danger"></span>
+</div>
+
+
+    <div class="form-group">
+        <label asp-for="Salary"></label>
+        <input asp-for="Salary" class="form-control" />
+        <span asp-validation-for="Salary" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Address"></label>
+        <input asp-for="Address" class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DepartmentID"></label>
+        <select asp-for="DepartmentID" class="form-control" asp-items="@(new SelectList(ViewBag.Departments, "ID", "DepName"))"></select>
+        <span asp-validation-for="DepartmentID" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="GetAll" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

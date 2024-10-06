@@ -1,0 +1,43 @@
+@model IEnumerable<Blog.Models.Author>
+
+@{
+    ViewData["Title"] = "Authors List";
+}
+
+<h2>Authors List</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Date of Birth</th>
+            <th>Gender</th>
+            <th>Salary</th>
+            <th>Address</th>
+            <th>Department</th>
+            <th>#</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var author in Model)
+        {
+            <tr>
+                <td>@author.ID</td>
+                <td>@author.Name</td>
+                <td>@author.BirthDate.ToString("dd/MM/yyyy")</td>
+                <td>@author.Gender</td>
+                <td>@author.Salary</td>
+                <td>@author.Address</td>
+                <td>@author.Department?.DepName</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@author.ID" class="btn btn-primary">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@author.ID" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-success">Add New Author</a>
+<a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Back to list</a>

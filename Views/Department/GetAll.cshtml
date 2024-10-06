@@ -1,0 +1,54 @@
+@model IEnumerable<Blog.Models.Department>
+
+@{
+    ViewData["Title"] = "Departments List";
+}
+
+<h2>Departments List</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Department Name</th>
+            <th>Create Date</th>
+            <th>Authors</th>
+            <th>#</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var department in Model)
+        {
+            <tr>
+                <td>@department.ID</td>
+                <td>@department.DepName</td>
+                <td>@department.CreateDate</td>
+                <td>
+                <ul>
+              @if (department.Authors != null && department.Authors.Any())
+              {
+                  foreach (var author in department.Authors)
+                  {
+                      if (author != null)
+                      {
+                          <li>@author.Name</li>
+                      }
+                  }
+              }
+              else
+              {
+                  <li>No authors</li>
+              }
+          </ul>
+      </td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@department.ID" class="btn btn-primary">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-success">Add New Department</a>
+<a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Back to list</a>

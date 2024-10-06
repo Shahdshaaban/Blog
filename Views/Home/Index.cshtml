@@ -1,0 +1,374 @@
+﻿<html>
+@model IEnumerable<Blog.Models.Post>
+
+@{
+    ViewData["Title"] = "Blog Homepage";
+}
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Blog</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="hero_area">
+        
+
+        <section class="slider_section position-relative">
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="detail-box">
+                                        <div>
+                                            <h2>
+                                                welcome to
+                                            </h2>
+                                            <h1>
+                                                Our Blog
+                                            </h1>
+                                            <p>
+                                                Explore a collection of posts from multiple departments,
+                                                offering unique perspectives on various topics.
+                                                Each post provides valuable insights tailored by experts from different fields.
+                                            </p>
+                                            <div class="">
+                                                <a href="">
+                                                    Contact us
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="do_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          What we do
+        </h2>
+        <p>
+          At Our Blog, we connect diverse voices to share insights and experiences across various fields. 
+          Our mission is to inspire and educate our readers through high-quality content on a wide range of topics, 
+          including technology, health, arts, and culture.
+            What to Expect
+            - Expert Insights: Articles from seasoned professionals sharing knowledge and best practices.
+            - Diverse Topics: Engaging content that resonates with our readers' interests.
+            - Community Engagement: We encourage discussions and feedback to foster a vibrant community.
+            Join us as we celebrate storytelling and the power of shared knowledge!
+        </p>
+      </div>
+      <div class="do_container">
+        <div class="box arrow-start arrow_bg">
+          <div class="img-box">
+            <img src="Images/d-1.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              Fashion
+            </h6>
+          </div>
+        </div>
+        <div class="box arrow-middle arrow_bg">
+          <div class="img-box">
+            <img src="Images/d-2.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              Development
+            </h6>
+          </div>
+        </div>
+        <div class="box arrow-middle arrow_bg">
+          <div class="img-box">
+            <img src="Images/d-3.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              Sports
+            </h6>
+          </div>
+        </div>
+        <div class="box arrow-end arrow_bg">
+          <div class="img-box">
+            <img src="Images/d-4.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              Health
+            </h6>
+          </div>
+        </div>
+        <div class="box ">
+          <div class="img-box">
+            <img src="Images/d-5.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              Economy
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="who_section ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="img-box">
+            <img src="Images/who-img.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                WHO WE ARE?
+              </h2>
+            </div>
+            <p>
+            We are a passionate team of writers, professionals, and enthusiasts dedicated to creating a vibrant platform for sharing knowledge and insights across various fields.
+            Our diverse backgrounds and expertise enable us to cover a wide range of topics,
+            ensuring our content is informative, engaging, and relevant to our readers.
+            At Our Blog, we believe in the power of storytelling to connect people and inspire positive change.
+            We strive to create a welcoming community where voices from different departments come together to share their experiences and expertise.
+            Join us on this journey of discovery and learning!
+            </p>
+            <div>
+              <a href="">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<br></br>
+
+    <div class="container">
+        <div class="mb-3">
+            <a asp-action="CreatePost" class="btn btn-primary">Add New Post</a>
+            <a asp-controller="Author" asp-action="GetAll" class="btn btn-secondary">View All Authors</a>
+            <a asp-controller="Department" asp-action="GetAll" class="btn btn-secondary">View All Departments</a>
+        </div>
+        <h2>Posts</h2>
+
+        <div class="post-list">
+            @foreach (var post in Model)
+            {
+                <div class="card mb-4">
+                    <div class="d-flex align-items-center">
+                        @if (!string.IsNullOrEmpty(post.ImagePath))
+                        {
+                            <img src="~/images/@post.ImagePath" class="card-img" alt="@post.PostType">
+                        }
+                        <div class="card-body">
+                            <h5 class="card-title">Author: @post.Author?.Name</h5>
+                            <p class="card-text"><strong>Type:</strong> @post.PostType</p>
+                            <p class="card-text"><strong>Description:</strong> @post.Description</p>
+                            <p class="card-text">
+                                <strong>Created at:</strong> @post.CreateDate.ToString("MMMM dd, yyyy hh:mm tt")
+                            </p>
+                            <div>
+                                <a asp-action="EditPost" asp-route-id="@post.ID" class="btn btn-warning">Update</a>
+                                <a asp-action="DeletePost" asp-route-id="@post.ID" class="btn btn-danger">Delete</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+<section class="target_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <div class="detail-box">
+            <h2>
+              1000+
+            </h2>
+            <h5>
+              Years of Business
+            </h5>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="detail-box">
+            <h2>
+              20000+
+            </h2>
+            <h5>
+              Projects Delivered
+            </h5>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="detail-box">
+            <h2>
+              10000+
+            </h2>
+            <h5>
+              Satisfied Customers
+            </h5>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="detail-box">
+            <h2>
+              1500+
+            </h2>
+            <h5>
+              Cups of Coffee
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="contact_section layout_padding">
+    <div class="container">
+      <div class="map_img-box">
+        <img src="images/map-img.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="info_section ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_contact">
+            <h5>
+              About Shop
+            </h5>
+            <div>
+              <div class="img-box">
+                <img src="images/location-white.png" width="18px" alt="">
+              </div>
+              <p>
+                Address
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/telephone-white.png" width="12px" alt="">
+              </div>
+              <p>
+                +01 1234567890
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/envelope-white.png" width="18px" alt="">
+              </div>
+              <p>
+                demo@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_info">
+            <h5>
+              Informations
+            </h5>
+            <p>
+            We are a specialized blog that brings together knowledge and expertise from various departments,
+            aiming to provide inspiring and valuable content for our community.
+            </p>
+          </div>
+        </div>
+  </section>
+
+
+
+  <section class="container-fluid footer_section">
+    <p>
+      &copy; 2020 All Rights Reserved By Shahd
+    </p>
+  </section>
+    <style>
+        @* .container {
+            margin-top: 20px;
+        } *@
+
+        
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .card-img {
+            width: 270px;
+            height: 170px;
+            object-fit: cover;
+            margin-right: 20px;
+            border-radius: 8px 0 0 8px;
+            padding-left: 10px;
+        }
+
+        .card-body {
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        @* .post-list {
+            display: flex;
+            flex-direction: column;
+        } *@
+    </style>
+
+     <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 0,
+      navText: [],
+      center: true,
+      autoplay: true,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
